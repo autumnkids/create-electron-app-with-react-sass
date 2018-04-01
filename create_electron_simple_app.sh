@@ -31,6 +31,8 @@ echo '-> package.json'
 cp ./package.json $DEST_FOLDER/
 echo '-> webpack.config.js'
 cp ./webpack.config.js $DEST_FOLDER/
+echo '-> build_production.sh'
+cp ./build_production.sh $DEST_FOLDER/
 echo 'DONE!'
 printf '=========================================\n\n'
 
