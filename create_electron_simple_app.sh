@@ -56,4 +56,5 @@ npm run build
 echo 'DONE!'
 printf '=========================================\n\n'
 
-echo 'Now you can go to' $DEST_FOLDER 'and run "npm start" to start'
+echo 'Here we go, you can go to' $DEST_FOLDER 'and run "npm start" to start!'
+echo 'Thanks for using create-electron-simple-app!'

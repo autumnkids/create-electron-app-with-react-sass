@@ -6,11 +6,21 @@ A helper to create a basic electron app for you to start with, which integrates 
 
 ## How to use?
 
+### For development
+
 ```
 ./create_electron_simple_app.sh /path/to/your-app
 ```
 
 If only the app name is provided, it'll create the app folder in `../app-name`
+
+### For production
+
+```
+./build_production.sh
+```
+
+Which will run `npm run build` and generate two scripts to help start electron.
 
 ## What happens if I run the command above?
 
