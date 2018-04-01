@@ -4,14 +4,16 @@ echo 'Start creating...'
 
 if [ -z $1 ]; then
   echo 'Please enter the destination folder name.'
-  exit
+  exit 1
 fi
 
 DEST_FOLDER=$1
-if [ ! -d $1 ]; then
-  echo 'Creating destination folder...'
-  mkdir ../$1
+if [[ ! $1 == */* ]]; then
   DEST_FOLDER=../$1
+fi
+if [ ! -d $DEST_FOLDER ]; then
+  echo 'Creating destination folder...'
+  mkdir -p $DEST_FOLDER
   echo 'DONE!'
   printf '=========================================\n\n'
 fi
