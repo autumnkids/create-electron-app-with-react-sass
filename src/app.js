@@ -1,3 +1,13 @@
+/**
+ * Example App
+ * which shows the menu with buttons on the left hand side,
+ * and a webview on the right hand side.
+ *
+ * @author Yinlin Zhou <kelonzhou@gmail.com>
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 import React, {Component} from 'react';
 import Button from './button';
 import Webview from './webview';
