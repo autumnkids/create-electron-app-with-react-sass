@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Electron Simple App</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    let bundlePath = './build/bundle.js';
+
+    if (process && process.env.ENVIRONMENT === 'DEV') {
+      bundlePath = 'http://localhost:8080/build/bundle.js';
+    }
+
+    const bundleScriptEl = document.createElement('script');
+    bundleScriptEl.src = bundlePath;
+    document.currentScript.parentNode.insertBefore(bundleScriptEl, document.currentScript);
+  </script>
+</body>
+
+</html>

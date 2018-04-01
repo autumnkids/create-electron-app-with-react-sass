@@ -1,0 +1,19 @@
+{
+  "name": "create-electron-simple-app",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yinlin Zhou",
+    "email": "yzhou@wayfair.com"
+  },
+  "main": "electron_starter.js",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  },
+  "scripts": {
+    "electron": "./node_modules/.bin/electron .",
+    "electron-dev": "ENVIRONMENT=DEV ./node_modules/.bin/electron .",
+    "build": "./node_modules/.bin/webpack",
+    "watch": "./node_modules/.bin/webpack-dev-server --hot --inline",
+    "start": "npm run watch & node ./app_starter.js"
+  }
+}

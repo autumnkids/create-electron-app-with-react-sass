@@ -1,0 +1,11 @@
+.BrowseWindow {
+  height: 100%;
+  &-container {
+    height: 100%;
+  }
+  &-navigation {
+    position: absolute;
+    left: 210px;
+    top: 10px;
+  }
+}
