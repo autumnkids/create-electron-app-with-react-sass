@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": {
     "name": "Yinlin Zhou",
-    "email": "yzhou@wayfair.com"
+    "email": "kelonzhou@gmail.com"
   },
   "main": "electron_starter.js",
   "devDependencies": {
