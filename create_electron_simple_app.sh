@@ -45,7 +45,7 @@ echo 'Installing dependencies...'
 echo '-> electron'
 npm install
 echo '-> react'
-npm install --save-dev babel-loader babel-core babel-preset-react babel-plugin-transform-class-properties react react-dom
+npm install --save-dev babel-loader@7 babel-core babel-preset-react babel-plugin-transform-class-properties react react-dom
 echo '-> webpack'
 npm install --save-dev webpack webpack-cli
 echo '-> webpack-dev-server'
